@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 3rem;
+    width: 100%;
+}
+.navbar{
+    background-color: #021526;
+    color: rgb(243, 227, 227);
+
+}
+.navbar-item{
+    display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   padding: 8px;
+}
+.navbar-item li{
+    font-size: 30px;
+    cursor: pointer;
+}
