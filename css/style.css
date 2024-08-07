@@ -21,3 +21,37 @@ nav{
     font-size: 30px;
     cursor: pointer;
 }
+section{
+    background-color: rgb(244, 213, 75);
+}
+.slider-img{
+    height: 400px; 
+    width: 95%;
+    display: block;
+    margin: 3px auto;
+    object-fit:fill;
+    border-radius: 10px;
+}
+.btn-container{
+    position: relative;
+    
+}
+.btn{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    top: 150px;
+    cursor: pointer;
+
+}
+.left-btn{
+    left: 0px;
+    position: absolute;
+
+
+}
+.right-btn{
+    right: 0px;
+    position: absolute;
+
+}
